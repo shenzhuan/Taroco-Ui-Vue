@@ -100,7 +100,7 @@ sh taroco-run.sh
 
 ### 启动zipkin（可选）
 
-zipkin 服务对内存有一定要求，如果内存不足，可能启动不起来。同时 zipkin 服务依赖mysql，启动之前需要将 taroco-docs/zipkin.sql 导入到 taroco-oauth2 库当中。
+zipkin 服务对内存有一定要求，如果内存不足，可能启动不起来。同时 zipkin 服务依赖mysql，启动之前需要将 taroco-docs/zipkin.sql 导入到 mallcloud 库当中。
 
 你也可以修改为单独的库启动，只需修改 docker-compose-zipkin.yml 当中的库名即可。
 

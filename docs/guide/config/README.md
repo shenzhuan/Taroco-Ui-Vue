@@ -129,14 +129,14 @@ feign:
 # jpa配置 数据源配置
 spring:
   datasource:
-    url: ${base.mysql.url}/taroco-oauth2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: ${base.mysql.url}/mallcloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
     username: root
     password: taroco@1234
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
       minimum-idle: 5
       maximum-pool-size: 20
-      pool-name: Taroco-OAuth2-HikariCP
+      pool-name: mallcloud-HikariCP
   #redis配置
   redis:
     host: ${base.redis.host}
@@ -255,14 +255,14 @@ turbine:
 # jpa配置 数据源配置
 spring:
   datasource:
-    url: ${base.mysql.url}/taroco-oauth2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: ${base.mysql.url}/mallcloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
     username: root
     password: taroco@1234
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
       minimum-idle: 5
       maximum-pool-size: 20
-      pool-name: Taroco-OAuth2-HikariCP
+      pool-name: mallcloud-HikariCP
   #redis配置
   redis:
     host: ${base.redis.host}

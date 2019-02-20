@@ -62,11 +62,11 @@ spring:
 
 ## 导入数据库脚本
 
-* 新建数据库 taroco-oauth2
+* 新建数据库 mallcloud
 
 * 导入初始化脚本
 
-数据库脚本在 taroco-docs/taroco-oauth2-2.x.sql
+数据库脚本在 taroco-docs/mallcloud-2.x.sql
 
 ## 启动服务
 
